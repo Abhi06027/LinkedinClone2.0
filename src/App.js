@@ -11,13 +11,18 @@ import Forgetpassword from "./components/Forgetpassword";
 function App() {
   return (
     <>
-      <Linkdinimg />
+      <Linkdinimg
+        imgstyle="w-28 pt-8 ml-16 hidden sm:flex md:flex lg:flex"
+        imgsrc="./images/li.png"
+      ></Linkdinimg>
       <div className="max-w-[400px] mx-auto bg-white sm:shadow-md md:shadow-md   lg:shadow-md  px-8 lg:mt-36">
         <Headername
+          imgstyle="w-28 flex sm:hidden md:hidden lg:hidden"
           name="Sign in"
           namestyle="text-black text-3xl font-semibold "
           namestyle2="text-black text-sm pb-2 pt-1"
           name2="Stay updated on your professional world"
+          imgsrc="./images/li.png"
         ></Headername>
 
         <Inputype
@@ -40,6 +45,7 @@ function App() {
         <Button1
           button=" Sign in  "
           buttonstyle=" bg-blue-700 rounded-full text-center w-80  hover:bg-blue-900 text-white py-3 mx-2 "
+          link="https://www.linkedin.com/in/abhinav-gupta-03403a184/"
         ></Button1>
         <Border />
 
@@ -48,6 +54,9 @@ function App() {
           applebuttonstyle="flex items-center justify-center w-80 bg-white
           rounded-full cursor-pointer border-gray-400 hover:border-black
           border-2 hover:bg-gray-100 text-black mx-2 py-3"
+          imgsrc="./images/apple.png"
+          imgstyle="w-6 mx-2"
+          link="https://www.instagram.com/abhinavdesigns1/"
         ></Buttonapple>
       </div>
 
@@ -60,5 +69,4 @@ function App() {
     </>
   );
 }
-
 export default App;
