@@ -3,9 +3,9 @@ import React from "react";
 export default function Inputype(props) {
   return (
     <div>
-      <div className=" pb-3">
+      <div className=" w-full pb-3">
         <input
-          className={props.styled}
+          className="border-blue-500 border w-full h-12 px-3 rounded-md text-black"
           type={props.type}
           placeholder={props.placeholder}
         />

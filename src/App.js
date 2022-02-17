@@ -25,17 +25,8 @@ function App() {
           imgsrc="./images/li.png"
         ></Headername>
 
-        <Inputype
-          type="password"
-          placeholder="Enter Password"
-          styled="border-blue-500 border w-80  h-12 px-3 rounded-md text-black"
-        ></Inputype>
-
-        <Inputype
-          type="Email"
-          placeholder="Enter Email"
-          styled="border-blue-500 border w-80  h-12 px-3 rounded-md text-black"
-        ></Inputype>
+        <Inputype type="Email" placeholder="Enter Email"></Inputype>
+        <Inputype type="password" placeholder="Enter Password"></Inputype>
 
         <Forgetpassword
           forgetpassword="Forgot Password?"
